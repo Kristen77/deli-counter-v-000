@@ -8,7 +8,7 @@ def line(katz_deli)
     else 
       number = 1 
         katz_deli.each do |customer|
-          place_in_line << "#{number}. #{customer}"
+          place_in_line.push "#{number}. #{customer}"
             number += 1 
       end
     puts  "The line is currently: #{place_in_line.join(" ")}"
