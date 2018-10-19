@@ -8,7 +8,7 @@ def line(katz_deli)
     else 
       number = 1 
         katz_deli.each do |customer|
-          line_position << #{number, #{customer}
+          line_position << "#{number}, #{customer}"
             number += 1 
         end
       puts "#{name}. #{katz_deli.length}"
