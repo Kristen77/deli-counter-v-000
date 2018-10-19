@@ -10,11 +10,12 @@ def line(katz_deli)
         katz_deli.each do |customer|
           place_in_line << "#{number}, #{customer}"
             number += 1 
-        end
-      puts  "The line is currently: #{place_in_line.join(" ")}"
+      end
+    puts  "The line is currently: #{place_in_line.join(" ")}"
   end
 end
 
 def take_a_number(katz_deli, customer)
+  
 
 end
