@@ -22,6 +22,6 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.empty?
-    puts "there are no people in line"
+    puts 
   else
     
