@@ -6,8 +6,10 @@ def line(katz_deli)
     if katz_deli.empty?
   puts "The line is currently empty."
     else 
-      counter = 1 
+      number = 1 
         katz_deli.each do |customer|
+          line_position << #{number, #{customoer}
+            number += 1 
       puts "#{name}. #{katz_deli.length}"
   end
 end
