@@ -11,7 +11,7 @@ def line(katz_deli)
           line_position << "#{number}, #{customer}"
             number += 1 
         end
-      puts "#{name}. #{katz_deli.length}"
+      puts 
   end
 end
 
