@@ -2,7 +2,8 @@
 katz_deli = []
 
 def line(katz_deli, name)
-  line_position = 1 
+  line_position = []
+    if katz_deli.empty?
   puts "The line is currently empty."
     else puts "#{name}. #{katz_deli.length}"
   end
